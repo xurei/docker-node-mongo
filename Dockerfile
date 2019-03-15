@@ -1,5 +1,5 @@
-FROM node:9.11.2-alpine
- 
+FROM node:10.15.1-alpine
+
 RUN echo $'\
 http://dl-cdn.alpinelinux.org/alpine/v3.8/main\n\
 http://dl-cdn.alpinelinux.org/alpine/v3.8/community' > /etc/apk/repositories && \
